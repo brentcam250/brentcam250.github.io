@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./Pomodoro.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+   
+    <div class = 'grid'>
+         <h1 class = 'pomodoro-title'>Pomodoro Clock</h1>
+        <div class = 'top'>
+            <div class = 'session'>
+                <h2 class='session-title'>Session</h2>
+                <div class = "arrowContainer">
+                    <div class = 'down-button classButton ' id = 'session-down'><i class='material-icons'>keyboard_arrow_down</i></div>
+                    <div class = 'minutes ' id = 'session-minutes'></div>
+                    <div class = 'up-button classButton' id = 'session-up'><i class='material-icons'>keyboard_arrow_up</i></div>
+                </div>
+            </div>
+            <div class = 'break'>
+                <h2 class='break-title'>Break</h2>
+                <div class = "arrowContainer">
+                    <div class = 'down-button classButton' id = 'break-down'><i class='material-icons'>keyboard_arrow_down</i></div>
+                    <div class = 'minutes ' id = 'break-minutes'></div>
+                    <div class = 'up-button classButton' id = 'break-up'><i class='material-icons'>keyboard_arrow_up</i></div>
+                </div>
+            </div>
+        </div>
+        <div class = 'time'>
+            <div class = 'topBox'> 
+                <div class = 'play-button classButton control-button' id = 'play-button'>
+                    <i class='material-icons'>play_arrow</i>
+                </div>
+                <div class = 'refresh-button classButton control-button' id = 'refresh-button'>
+                    <i class='material-icons'>refresh</i>
+                </div>
+            </div> 
+            <div class = 'clock'>
+                25:00
+            </div>
+            <div class = 'topBox'>
+                <div class = 'pause-button classButton control-button' id = 'pause-button'>
+                    <i class='material-icons'>pause</i> 
+                </div>
+                <div class = 'stop-button classButton control-button' id = 'stop-button'>
+                    <i class='material-icons'>stop</i>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src = './Pomodoro.js'></script>
